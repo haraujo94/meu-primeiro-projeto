@@ -3,6 +3,7 @@
   
   <HelloWorldNew msg="Bem Vindo ao seu aplicativo vue.js"/>
   <ListadeClientes/> 
+
 </template>
 
 <script>
