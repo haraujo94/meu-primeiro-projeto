@@ -1,7 +1,8 @@
 <template>
   <div>
     <label>Lista de Clientes</label>
-        <select name="ListaClientes" id="ListaClientes">
+       <select name="ListaClientes" id="ListaClientes">
+        <option value="">Selecione</option>
         <option value="Cliente1">Petrobrás</option>
         <option value="Cliente2">Vale do Rio Doce</option>
         <option value="Cliente3">Transpetro</option>
@@ -27,5 +28,6 @@ label {
 }
 select{
   color: black;
+  background-color: green;
 }
 </style>

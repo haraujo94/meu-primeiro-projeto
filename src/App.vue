@@ -2,19 +2,18 @@
   <img alt="Vue logo" src="./assets/logo.png">
   
   <HelloWorldNew msg="Bem Vindo ao seu aplicativo vue.js"/>
-  <ListadeClientes/>
+  <ListadeClientes/> 
 </template>
 
 <script>
 
 import HelloWorldNew from './components/HelloWorldNew.vue'
-import ListadeClientes from './components/ListaDeClientes.vue'
-
+import ListadeClientes from './components/ListadeClientes.vue'
 
 export default {
   name: 'App',
   components: {
-     HelloWorldNew, ListadeClientes
+     HelloWorldNew, ListadeClientes,
   }
 }
 </script>
