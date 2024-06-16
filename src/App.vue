@@ -2,6 +2,7 @@
   <img alt="Vue logo" src="./assets/logo.png">
   
   <HelloWorldNew msg="Bem Vindo ao seu aplicativo vue.js"/>
+  <CadastroCliente/>
   <ListadeClientes/> 
   <Motor/>
   <ArranqueDoCarro/>
@@ -10,15 +11,16 @@
 
 <script>
 
+import CadastroCliente from './components/CadastroCliente.vue';
 import HelloWorldNew from './components/HelloWorldNew.vue'
 import ListadeClientes from './components/ListadeClientes.vue'
 import Motor from './components/Motor.vue'
-import ArranqueDoCarro from './components/ArranqueDoCarro.vue'
+import ArranqueDoCarro from './components/Motor.vue'
 
 export default {
   name: 'App',
   components: {
-     HelloWorldNew, ListadeClientes, Motor, ArranqueDoCarro,
+     HelloWorldNew,CadastroCliente, ListadeClientes, Motor, ArranqueDoCarro,
   }
 }
 </script>
