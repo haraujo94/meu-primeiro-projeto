@@ -3,22 +3,14 @@
     <label> Carburador a Diesel</label>
   </div>
 
-<ObjetoArranque/>
-
-
 </template>
 
 <script>
 //Pesquisar sobre caminho relativo e caminho absoluto
-
-import ObjetoArranque from './ArranqueDoCarro.vue';
-
 export default {
   
-name: 'Carburador',
+name: 'CarburadorCarro',
 components: {
-
-  ObjetoArranque,
 
 },
 props: {
