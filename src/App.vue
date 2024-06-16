@@ -10,11 +10,12 @@
 
 import HelloWorldNew from './components/HelloWorldNew.vue'
 import ListadeClientes from './components/ListadeClientes.vue'
+import Motor from './components/motor.vue'
 
 export default {
   name: 'App',
   components: {
-     HelloWorldNew, ListadeClientes,
+     HelloWorldNew, ListadeClientes, Motor, 
   }
 }
 </script>
