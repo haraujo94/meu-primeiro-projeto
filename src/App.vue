@@ -1,7 +1,4 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  
-  <HelloWorldNew msg="Bem Vindo ao seu aplicativo vue.js"/>
   <CadastroCliente/>
   <ListadeClientes/> 
   <Motor/>
@@ -11,8 +8,7 @@
 
 <script>
 
-import CadastroCliente from './components/CadastroCliente.vue';
-import HelloWorldNew from './components/HelloWorldNew.vue'
+import CadastroCliente from './components/CadastroCliente.vue'
 import ListadeClientes from './components/ListadeClientes.vue'
 import Motor from './components/Motor.vue'
 import ArranqueDoCarro from './components/Motor.vue'
@@ -20,7 +16,7 @@ import ArranqueDoCarro from './components/Motor.vue'
 export default {
   name: 'App',
   components: {
-     HelloWorldNew,CadastroCliente, ListadeClientes, Motor, ArranqueDoCarro,
+  CadastroCliente, ListadeClientes, Motor, ArranqueDoCarro,
   }
 }
 </script>
