@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label> Motor do carro</label>
+    <label> Arranque do Carro 4.0</label>
   </div>
 </template>
 
@@ -9,11 +9,8 @@
 
 export default {
   
-name: 'MotorCarro',
-components: {
+name: 'ArranqueCarro',
 
-
-},
 props: {
 
 

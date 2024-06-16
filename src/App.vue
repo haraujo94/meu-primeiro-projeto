@@ -3,6 +3,8 @@
   
   <HelloWorldNew msg="Bem Vindo ao seu aplicativo vue.js"/>
   <ListadeClientes/> 
+  <Motor/>
+  <ArranqueDoCarro/>
 
 </template>
 
@@ -10,12 +12,13 @@
 
 import HelloWorldNew from './components/HelloWorldNew.vue'
 import ListadeClientes from './components/ListadeClientes.vue'
-import Motor from './components/motor.vue'
+import Motor from './components/Motor.vue'
+import ArranqueDoCarro from './components/ArranqueDoCarro.vue'
 
 export default {
   name: 'App',
   components: {
-     HelloWorldNew, ListadeClientes, Motor, 
+     HelloWorldNew, ListadeClientes, Motor, ArranqueDoCarro,
   }
 }
 </script>

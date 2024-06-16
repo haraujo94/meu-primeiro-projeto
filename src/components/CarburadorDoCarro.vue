@@ -1,10 +1,9 @@
 <template>
   <div>
-    <label> Motor do carro</label>
+    <label> Carburador a Diesel</label>
   </div>
 
 <ObjetoArranque/>
-<ObjetoCarburador/>
 
 
 </template>
@@ -13,14 +12,13 @@
 //Pesquisar sobre caminho relativo e caminho absoluto
 
 import ObjetoArranque from './ArranqueDoCarro.vue';
-import ObjetoCarburador from './CarburadorDoCarro.vue';
 
 export default {
   
-name: 'MotorCarro',
+name: 'Carburador',
 components: {
 
-  ObjetoArranque, ObjetoCarburador, 
+  ObjetoArranque,
 
 },
 props: {
