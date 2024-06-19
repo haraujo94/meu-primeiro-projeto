@@ -5,19 +5,25 @@
       <div>
 
         <label for="nome"> Nome:</label>
-        <input type="text" id="nome" v-model="nome" required>
+        <input type="text" id="nome" v-model="m_nome" required>
       </div>
       
       <div>
 
         <label for="email"> Email:</label>
-        <input type="email" id="email" v-model="email" required>
+        <input type="email" id="email" v-model="m_email" required>
       </div>
 
       <div>
-        <label for="cep"> Código de Endereço Postal</label>
-        <input type="text" id="cep" v-model="cep" required>
+        <label for="cep"> Cep</label>
+        <input type="text" id="cep" v-model="m_cep" required>
       </div>
+
+      <div>
+        <label for="endereco"> Endereço</label>
+        <input type="text" id="endereco" v-model="m_endereco" required>
+      </div>
+
 
       <button type="submit"> Cadastrar</button>
       </form>
@@ -27,10 +33,7 @@
 <script>
 export default {
   name: 'CadastroCliente',
-  props: {
-    msg: String
-  }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

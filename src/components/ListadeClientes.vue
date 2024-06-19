@@ -3,9 +3,9 @@
     <label>Lista de Clientes</label>
        <select name="ListaClientes" id="ListaClientes">
         <option value="">Selecione</option>
-        <option value="Cliente1">Petrobrás</option>
-        <option value="Cliente2">Vale do Rio Doce</option>
-        <option value="Cliente3">Transpetro</option>
+        <option value="Cliente1">Fiat</option>
+        <option value="Cliente2">Chevrolet</option>
+        <option value="Cliente3">Toyota</option>
 
     </select>
   </div>
