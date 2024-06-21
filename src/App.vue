@@ -7,15 +7,16 @@
 </template>
 
 <script>
-
 import CadastroCliente from './components/CadastroCliente.vue'
 import ListadeClientes from './components/ListadeClientes.vue'
 import Motor from './components/Motor.vue'
 import ArranqueDoCarro from './components/Motor.vue'
 
+
 export default {
   name: 'App',
   components: {
+    
   CadastroCliente, ListadeClientes, Motor, ArranqueDoCarro,
   }
 }
