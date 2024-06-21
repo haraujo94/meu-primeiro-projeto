@@ -1,6 +1,8 @@
 <template>
   <div class=" cadastro-cliente">
     <h1>Cadastro de Cliente</h1>
+    <img src="../assets/carros.png.jpg">
+    
     <form @submit.prevent="submitForm">
       <div>
 
