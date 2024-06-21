@@ -19,13 +19,13 @@
       </div>
 
       <div>
-        <label for="cep"> Cep</label>
+        <label for="cep"> Cep:</label>
         <input type="text" placeholder="Codigo endereço postal"
          id="CEP" v-model="m_cep" required>
       </div>
 
       <div>
-        <label for="endereco"> Endereço</label>
+        <label for="endereco"> Endereço:</label>
         <input type="text" id="endereco" v-model="m_endereco" required>
       </div>
 
@@ -51,6 +51,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px ;
+  padding: 60px ;
+}
+.form{
+  padding: 60px
 }
 </style>

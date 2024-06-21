@@ -6,6 +6,10 @@
         <option value="Cliente1">Fiat</option>
         <option value="Cliente2">Chevrolet</option>
         <option value="Cliente3">Toyota</option>
+        <option value="Cliente4">Volkswagen</option>
+        <option value="Cliente5">Citroen</option>
+        
+        
 
     </select>
   </div>
@@ -24,10 +28,11 @@ export default {
 <style scoped>
 label {
   color: #42b983;
-  font-size: 14px;
+  font-size: 20px;
 }
 select{
   color: black;
   background-color: green;
+  font-size: 20px;
 }
 </style>
