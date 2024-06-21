@@ -1,22 +1,25 @@
 <template>
   <div class=" cadastro-cliente">
     <h1>Cadastro de Cliente</h1>
-    <form>
+    <form @submit.prevent="submitForm">
       <div>
 
         <label for="nome"> Nome:</label>
-        <input type="text" id="nome" v-model="m_nome" required>
+        <input type="text" placeholder="Nome completo do cliente" 
+        id="nome" v-model="m_nome" required>
       </div>
       
       <div>
 
         <label for="email"> Email:</label>
-        <input type="email" id="email" v-model="m_email" required>
+        <input type="email" placeholder="Endereço eletronico"  
+        id="email" v-model="m_email" required>
       </div>
 
       <div>
         <label for="cep"> Cep</label>
-        <input type="text" id="cep" v-model="m_cep" required>
+        <input type="text" placeholder="Codigo endereço postal"
+         id="CEP" v-model="m_cep" required>
       </div>
 
       <div>
@@ -33,21 +36,19 @@
 <script>
 export default {
   name: 'CadastroCliente',
+
+ 
 };
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-label {
-  color: #42b983;
-  font-size: 14px;
-}
-select{
-  color: black;
-  background-color: green;
-}
-h1{
-  color: blueviolet;
-  font-size: 40px;
+.cadastro-cliente{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px ;
 }
 </style>
