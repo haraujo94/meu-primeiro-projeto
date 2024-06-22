@@ -1,6 +1,12 @@
 <template>
   <div>
     <label> Carburador a Diesel</label>
+    <select name="CarburadorCarro" id="CarburadorCarro">
+        <option value="">Selecione</option>
+        <option value="Tipo1">Descendente</option>
+        <option value="Tipo2">Horizontal</option>
+        <option value="Tipo3">Ascendente</option>
+        </select>
   </div>
 
 </template>
@@ -28,6 +34,11 @@ props: {
 <style scoped>
 label{
   font-size: 20px;
-  color: blue;
+  color:black;
+}
+select{
+  color: white;
+  background-color: black;
+  font-size: 20px;
 }
 </style>

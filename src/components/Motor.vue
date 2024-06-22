@@ -1,6 +1,14 @@
 <template>
   <div>
     <label> Motor do carro</label>
+    <select name="MotorCarro" id="MotorCarro">
+        <option value="">Selecione</option>
+        <option value="Tipo1">1.0</option>
+        <option value="Tipo2">1.4</option>
+        <option value="Tipo3">1.6</option>
+        <option value="Tipo4">1.8</option>
+        <option value="Tipo5">2.0</option>
+        </select>
   </div>
 
 <ObjetoArranque/>
@@ -37,7 +45,12 @@ props: {
 <style scoped>
 label{
   font-size: 20px;
-  color: blue;
+  color: black;
+}
+select{
+  color: white;
+  background-color: black;
+  font-size: 20px;
 }
         
 </style>

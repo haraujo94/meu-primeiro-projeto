@@ -32,11 +32,11 @@ props: {
 <style scoped>
 label{
   font-size: 20px;
-  color:#42b983;
+  color:black;
 }
 select{
-  color: black;
-  background-color: green;
+  color: white;
+  background-color: black;
   font-size: 20px;
 }
 </style>

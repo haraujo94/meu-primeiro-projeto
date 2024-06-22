@@ -27,12 +27,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 label {
-  color: #42b983;
+  color: black;
   font-size: 20px;
 }
 select{
-  color: black;
-  background-color: green;
+  color: white;
+  background-color: black;
   font-size: 20px;
 }
 </style>
